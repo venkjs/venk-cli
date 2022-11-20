@@ -1,0 +1,38 @@
+{
+  "name": "venk-cli",
+  "version": "1.0.0",
+  "description": "A Commad Line Interface for Venk.js",
+  "main": "src/index.js",
+  "bin": {
+    "venk-cli": "bin/venk",
+    "venk": "bin/venk.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vnknt/venk-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vnknt/venk-cli/issues"
+  },
+  "homepage": "https://github.com/vnknt/venk-cli#readme",
+  "keywords": [
+    "venk",
+    "venk-cli",
+    "cli"
+  ],
+  "dependencies": {
+    "arg": "^5.0.2",
+    "esm": "^3.2.25",
+    "execa": "^6.1.0",
+    "glob": "^8.0.3",
+    "inquirer": "^9.1.4",
+    "listr": "^0.14.3",
+    "typescript": "^4.9.3"
+  },
+  "type": "module"
+}
